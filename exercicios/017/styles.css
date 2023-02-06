@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Filxgirl';
+    src: url('fonts/Filxgirl.TTF') format(truetype), url(fonts/Filxgirl.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+
+    /*
+    opentype (otf)
+    truetype (ttf)
+    embedded-opentype
+    truetype-aat
+    svg
+    */
+}
+
+html{
+    height: 100%;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-family: 'Filxgirl';
+    font-size: 4em;
+    text-align: center;
+}

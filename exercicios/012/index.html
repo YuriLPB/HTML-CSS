@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex12</title>
+</head>
+<body>
+    <h1>Inserindo Videos Local</h1>
+    <p>Este video está em meu servidor <br> forma 1 de colocar video</p>
+    <video src="midia/videoHDD.mp4" controls width="400"></video>
+    <video src="midia/Videohdd.mkv" controls width="400"></video>
+    <video src="midia/Videohdd.webm" controls width="400"></video>
+    <video src="midia/Videohddweb.mp4" controls width="400"></video>
+    <p>forma 2 de colocar videos</p>
+    <video controls width="400" poster="imagens/montanhaEDT.jpg">
+        <source src="midia/Videohddweb.mp4" type="video/mp4">
+        <source src="midia/videoHDD.mp4" type="video/mp4">
+        <source src="midia/Videohdd.webm" type="video/webm">
+        <source src="midia/Videohdd.mkv" type="video/mkv">
+        <p>não vai ver o video foda otario</p>
+    </video>
+    <p>videos hospedados vão consumir muito trafico de dados</p>
+    <h1>Inserindo videos de sites de hospedação de videos</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_Llp7C5nR50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>use o vimeo caso você queira hospedar videos privados no seu site</p>
+</body>
+</html>

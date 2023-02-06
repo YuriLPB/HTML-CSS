@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex11</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>Mude o tamanho do seu navegador para ver imagens diferentes >:D</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="IMGs/FotoP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="IMGs/FotoM.png" type="image/png">
+        <img src="IMGs/FotoG.png" alt="imagem flexível">
+    </picture>
+    <h1>Midia</h1>
+    <p>Audioooooooo, para arquivos de audio pode se usar 3 formatos, MP3, WAV e OGG <br><br>
+    <audio src="midia/Here-it-comes.mp3" controls autoplay></audio> <br><br>
+    outras formas de mostrar um arquivo de audio <br>
+    </p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Here-it-comes.mp3" type="audio/mpeg">
+        <source src="midia/Here-it-comes.ogg" type="audio/ogg">
+        <source src="midia/Here-it-comes.wav" type="audio/wav">
+        <p>seu merda do caralho usa um navegador melhor <a href="midia/Here-it-comes.mp3">baixa essa porra ai então seu merda</a></p>
+    </audio>
+    <p>wav é pesado dms</p>
+</body>
+</html>
+

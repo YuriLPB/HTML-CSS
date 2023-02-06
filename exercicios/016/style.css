@@ -1,0 +1,31 @@
+@charset "UTF-8";
+html {
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background: linear-gradient(to right, #fdd3ac , #EFBC9B);
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #91735794; /*como funciona o primeiro 10 é pro lado o segundo 10 é pra baixo e o terceiro 10 é espalhando*/
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: #4ECDC4;
+    text-align: center;
+    text-shadow: 1px 1px 2px #32868088;
+}
+h2{
+    color: #34D1BF;
+}
+h3{
+    color: #43AA8B;
+}
+p{
+    text-align: justify;
+}

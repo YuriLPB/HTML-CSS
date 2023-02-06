@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>groupingtags</title>
+    <style>
+        html{
+            font-size: 1px;
+            height:  100%;
+        }
+        body{
+            background-color: #8FBB99;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20rem; 
+            margin: 0px;
+        }
+        header{
+            background-color:  #595A4A;
+            margin: 0px;
+            padding: 10px 30px;
+            height: 120px;
+            border-bottom: solid 10px #363635;
+        }
+        #site{
+            font-size: 1.3em;
+        }
+        nav{
+            border-radius: 4px;
+            box-shadow: 5px 2px 7px 1px rgba(0, 0, 0, 0.300);
+             /*novamente o box-shadow funciona com o primeiro parametro levando a sombra para os lados o segundo parametro leva a sombra pra baixo e o ultimo espalha a sombra. não exagerar nisso*/
+            background-color: lightcoral;
+            padding: 3px;
+        }
+        nav > a{
+            margin-right: 30px;
+            text-decoration: none;
+            color: white;
+        }
+        nav:hover > a{
+            text-decoration: underline;
+            color: aquamarine;
+        }
+        main{
+            box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            border-radius: 10px;
+            width: 1500px;
+            background-color: white;
+            margin: 20px auto ;
+            text-align: justify;
+        }
+        footer{
+            padding: 20px;
+            text-align: center;
+            color: white;
+            background-color: #363635;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: rgb(139, 139, 139);
+        }
+        article,
+        aside {
+            padding: 0.8em;
+        }
+        #bola{
+            background-color: aliceblue;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="site">site foda</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assunto">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia</h2>
+                <p>artigo Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laborum velit tempore voluptates hic, recusandae ipsa aut perspiciatis voluptas quaerat eos beatae nesciunt voluptate accusantium quo similique placeat possimus eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem doloribus suscipit mollitia quasi eum! Sapiente sit culpa hic vero commodi, nulla atque ipsam tempore sed alias sunt totam. Rem, asperiores?</p>
+                <p>artigo</p>
+                <aside>
+                    <p>nome do autor do artigo</p>
+                </aside>
+                <h3>mini noticia</h3>
+                <p>artigo</p>
+                <p>artigo</p>
+            </article>
+            <article>
+                <h2>artigo</h2>
+                <p>artigo</p>
+            </article>
+        </section>
+        <section id="fim de noticias">
+            <article>
+                <p>artigo Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim maiores quam voluptate. Esse earum adipisci molestiae, asperiores repellendus sapiente rem perspiciatis expedita mollitia voluptate velit quas? Rem perferendis minus neque?</p>
+            
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Site Foda Meu</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

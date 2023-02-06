@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*
+em hmtl id="nome" em css = #nome
+ou
+em html class="nome" em css = .nome
+
+id só pode um igual por pagina, class pode ser usado em mais de 1
+*/
+html{
+    height: 100%;
+}
+body{
+    background-color: #b9fde7;
+    font: normal, 1em, Arial, Helvetica, sans-serif;
+}
+#principal{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #b9fde7;
+    background-color: #3E8573;
+}
+h1{
+    color: #343a38;
+}
+h2{
+    color: #336e50;
+}
+.basico{
+    color: #ddb66e;
+}
+.intermediario{
+    color: #FF8B59;
+}
+.avancado{
+    color: #873134;
+}
+.destaque{
+    background-color: #e7ac3d;
+}

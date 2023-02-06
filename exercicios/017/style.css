@@ -1,0 +1,42 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    /*
+    medidas absolutas 
+    cm, mm , in (ou polegada), px, (pt, pc (paica) não é recomendado usar em tela)
+    
+    medidas relativas
+    em, ex, rem, vw, vh, % se usa mais o em 
+    16px geralmente = 1em
+    */
+    font-size: 1em;
+    /*
+    font-weight: light;
+    font-style: italic;
+    text-decoration: underline;
+    */
+    /*
+    weight = peso, widht = espeçura, height = tamanho
+    esta fonte ai a work sans tem light normal bold e bolder outra variação é a numerica que começa em 100 e termina em 900 (100 - 900)
+    tem o font-style ali tbm que só tem o normal e o italico normalmente o font-weight serve para deixar em negrito e o font-style em italico 
+    tem o text-decoration que deixa sublinhado tambem
+    */
+}
+h1{
+    /*
+    font-family: 'Work Sans';
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    tem o shorthand que deixa fazer tudo junto
+    
+    font-style -> font-weight -> font-size -> font-family
+    
+    */
+    font: italic, bolder, 3em, 'Work Sans', sans-serif;
+}
+h2{
+    font: bold, 2em, 'Work Sans', sans-serif;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        h1{ /*box level*/
+            display: inline-block;
+            background-color: aquamarine;
+            height: 300px;
+            width: 300px;
+            margin: 20px auto 40px auto;
+            border: 10px solid darkgreen;
+            padding: 10px ;
+
+            outline: 5px dashed salmon;
+        }
+        a{ /*para border tem solid dashed dotted entre outras inline-level*/
+            border: solid 10px black;
+            border-bottom: solid 15px cornflowerblue;
+
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo Box Level</h1>
+    <p>tambem são exemplos de box level mas os <a href="#">links são exemplos de inline level</a> bunda :P</p>
+</body>
+</html>
